@@ -4,7 +4,7 @@
 #include <FS.h>
 
 #define APSSID "CAMROBO1" // SSID
-#define APPSK "*******"   // パスワード
+#define APPSK "*******"   // パスワード(8文字以上)
 
 const char *ssid = APSSID;
 const char *password = APPSK;
