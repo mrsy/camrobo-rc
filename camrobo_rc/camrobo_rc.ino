@@ -148,7 +148,7 @@ void left() {
 }
 
 void right() {
-  Serial.println("left");
+  Serial.println("right");
   analogWrite(PIN_AIN1, 100);
   analogWrite(PIN_AIN2, 0);
   analogWrite(PIN_BIN1, 0);
