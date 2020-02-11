@@ -3,8 +3,8 @@
 #include <ESP8266WebServer.h>
 #include <FS.h>
 
-#define APSSID "ROBOT1"
-#define APPSK "ninjaninja"
+#define APSSID "CAMROBO1" // SSID
+#define APPSK "*******"   // パスワード
 
 const char *ssid = APSSID;
 const char *password = APPSK;
